@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 99%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  background: radial-gradient(ellipse at center, white 20%, #d2d2d2 100%);
+  padding: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+svg {
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  font-weight: bold;
+  transition: opacity 300ms ease;
+  display: inline-block;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.speakers {
+  display: flex;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
