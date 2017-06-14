@@ -9,15 +9,43 @@ class App extends Component {
     super(props);
     this.state = {
       speakers: [
-        { name: 'Sarah Drasner', github: 'https://github.com/sdras', twitter: 'https://twitter.com/sarah_edo' },
-        { name: 'Ricardo Cabello', github: 'https://github.com/mrdoob', twitter: 'https://twitter.com/mrdoob' },
-        { name: 'Ada Rose Edwards', github: 'https://github.com/adaroseedwards', twitter: 'https://twitter.com/Lady_Ada_King' },
-        { name: 'Jorge Galvis', github: 'https://github.com/jorlugaqui', twitter: 'https://twitter.com/jorlugaqui' },
-        { name: 'Jessie Frazelle', github: 'https://github.com/jessfraz', twitter: 'https://twitter.com/jessfraz' },
-        { name: 'Gillermo Rausch', github: 'https://github.com/rauchg', twitter: 'https://twitter.com/rauchg' },
-        { name: 'Michael Jackson', github: 'https://github.com/mjackson', twitter: 'https://twitter.com/mjackson' },
+        {
+          name: 'Sarah Drasner',
+          github: 'https://github.com/sdras',
+          twitter: 'https://twitter.com/sarah_edo'
+        },
+        {
+          name: 'Ricardo Cabello',
+          github: 'https://github.com/mrdoob',
+          twitter: 'https://twitter.com/mrdoob'
+        },
+        {
+          name: 'Ada Rose Edwards',
+          github: 'https://github.com/adaroseedwards',
+          twitter: 'https://twitter.com/Lady_Ada_King'
+        },
+        {
+          name: 'Jorge Galvis',
+          github: 'https://github.com/jorlugaqui',
+          twitter: 'https://twitter.com/jorlugaqui'
+        },
+        {
+          name: 'Jessie Frazelle',
+          github: 'https://github.com/jessfraz',
+          twitter: 'https://twitter.com/jessfraz'
+        },
+        {
+          name: 'Gillermo Rausch',
+          github: 'https://github.com/rauchg',
+          twitter: 'https://twitter.com/rauchg'
+        },
+        {
+          name: 'Michael Jackson',
+          github: 'https://github.com/mjackson',
+          twitter: 'https://twitter.com/mjackson'
+        },
       ]
-    }
+    };
   }
 
   render() {
@@ -30,9 +58,9 @@ class App extends Component {
         <div className="App-intro">
           <div className="speakers">
             <IntroCard name="Jessie 1" />
-            <IntroCard name="Person 2" />
-            <IntroCard name="Person 2" />
-            <IntroCard name="Person 2" />
+            <IntroCard name="Foo 2" />
+            <IntroCard name="Nook 2" />
+            <IntroCard name="Lol 2" />
           </div>
         </div>
       </div>
