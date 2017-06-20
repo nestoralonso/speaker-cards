@@ -9,7 +9,7 @@ body {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #ffffff;
-  background: radial-gradient(ellipse at center, white 20%, #d2d2d2 100%);
+  background: radial-gradient(ellipse at center, #CCCCCC 20%, #DDDDDD 100%);
   padding: 0px;
 }
 
@@ -57,12 +57,17 @@ a:hover {
 
 .App-intro {
   font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .speakers {
   display: flex;
   margin-top: 1em;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
 }
 
 @keyframes App-logo-spin {
